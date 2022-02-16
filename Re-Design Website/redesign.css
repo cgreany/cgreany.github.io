@@ -1,0 +1,84 @@
+html, body{
+  margin:0;
+  padding:0;
+  font-family: verdana, sans-serif;
+  background-color: darkgrey;
+}
+
+header, nav, section, footer {
+  /*border: 1px solid black;*/
+}
+
+#wrap {
+  width: 70%;
+  /*border: 2px solid black;*/
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+
+header {
+  text-align: center;
+  background-color: orange;
+}
+
+header img {
+  width: 99.25%;
+}
+
+nav {
+  background-color: black;
+  padding: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: black;
+  color: orange;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 40px;
+  overflow: auto;
+}
+
+section h1 {
+  color: black;
+  margin: 0;
+  font-size: 200%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.button {
+  background-color:orange;
+  color: black;
+  padding: 20px;
+  font-size: 150%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  display: inline-block;
+}
