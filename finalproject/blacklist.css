@@ -1,0 +1,35 @@
+section {
+    background-color: #808080;
+    overflow: auto;
+
+}
+
+aside {
+    background-color: #808080;
+    width: 20%;
+    float: left;
+}
+
+aside a {
+    font-size: 100%;
+    text-decoration: none;
+    color: white;
+
+}
+
+aside a:hover {
+    color: #EC3632;
+}
+
+aside li {
+    list-style-type: none;
+    padding: 10px 0;
+
+}
+
+article {
+    background-color: white;
+    width: 70%;
+    padding: 3%;
+    float: right;
+}
