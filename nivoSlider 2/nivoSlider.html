@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nivoslider</title>
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="nivoslider.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/cow.jpg" data-thumb="images/cow.jpg" alt="" title="Cow" />
+                <img src="images/horse.jpg" data-thumb="images/horse.jpg" alt="" title="Horse" />
+                <img src="images/cat.jpg" data-thumb="images/cat.jpg" alt="" data-transition="slideInLeft" title="Cat" />
+                <img src="images/dog.jpg" data-thumb="images/dog.jpg" alt="" title="Dog" />
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();ss
+        });
+
+    </script>
+</body>
+
+</html>
